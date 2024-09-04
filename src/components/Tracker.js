@@ -1,4 +1,3 @@
-// src/components/Tracker.js
 import React, { useState } from 'react';
 import MedicationItem from './MedicationItem';
 
@@ -10,7 +9,7 @@ function Tracker() {
     e.preventDefault();
     if (input.trim()) {
       setMedications([...medications, input]);
-      setInput(''); // Clear the input field
+      setInput('');
     }
   };
 
