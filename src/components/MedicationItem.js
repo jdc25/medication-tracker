@@ -1,8 +1,7 @@
-// src/components/MedicationItem.js
 import React from 'react';
 
-function MedicationItem({ medication }) {
-  return <li>{medication}</li>;
-}
+const MedicationItem = ({ medication }) => (
+  <li>{medication}</li>
+);
 
 export default MedicationItem;
